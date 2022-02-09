@@ -6,5 +6,6 @@ public class Main {
         Sample s1 = new Sample();
         Sample s2 = new Sample(1);
         s1.javaVariable();
+        s2.javaIterative();
     }
 }

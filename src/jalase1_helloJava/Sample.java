@@ -19,5 +19,20 @@ public class Sample {
         //Double i = new Double(123232.3434);
 
         System.out.println("a , b are character and they values are: " + a + ", "+b);
+        System.out.println("c is integer and its value is: "+c +"\ne is short and its value is: "+d+"\nf is float and its values is:"+f+"\ng is double and its values is:"+g);
     }
+
+    public void javaIterative(){
+        int arr[] = new int[10];
+        int i = 1000;
+        do{
+            System.out.println("do while body have one or more run");
+        }while (i<100);
+        for (int j : arr) {
+            i = i / 2;
+            j = (int) i;
+            System.out.println("j value in for each Iterator is:"+j);
+        }
+    }
+
 }
