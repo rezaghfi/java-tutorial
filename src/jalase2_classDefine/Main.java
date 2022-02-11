@@ -55,5 +55,10 @@ public class Main {
     reza.live();
     reza.work();
     reza.programming();
+
+    //////////////////////////////// Access /////////////////////////////
+    Access access = new Access();
+    access.protectedProperty = 10;
+
   }
 }
