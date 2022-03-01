@@ -1,5 +1,6 @@
 package jalase3_OOP.patternDesign;
 
+// abstract implementation pattern.
 public class MoshakImp extends Moshak {
 
   @Override

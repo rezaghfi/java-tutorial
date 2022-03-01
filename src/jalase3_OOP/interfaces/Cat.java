@@ -6,11 +6,8 @@ public interface Cat {
   public default void cat(){
     System.out.println("ana defult method in cat interfce with body");
   }
-  public default void shared(){
+  public default void sameMethod(){
     System.out.println("ana same default method");
   }
 
-  public static void myFunc(){
-    System.out.println("ana functional programming in java 8");
-  }
 }

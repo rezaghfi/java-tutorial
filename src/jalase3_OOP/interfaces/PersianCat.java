@@ -13,7 +13,7 @@ public class PersianCat extends Animal implements Persian,Cat{
   }
 
   @Override
-  public void shared() {
+  public void sameMethod() {
     System.out.println("ana same default method and implement in persian cat");
   }
 

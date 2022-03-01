@@ -1,6 +1,7 @@
 package jalase3_OOP;
+
 import jalase3_OOP.final_.Aghim;
-import jalase3_OOP.interfaces.Cat;
+import jalase3_OOP.function.FunctionalInterface;
 import jalase3_OOP.interfaces.Persian;
 import jalase3_OOP.interfaces.PersianCat;
 import jalase3_OOP.patternDesign.*;
@@ -17,10 +18,11 @@ public class Main {
     parent.b();
     Child child = new Child();
     child.b();
+
     /////////////////////
     MoshakImp m = new MoshakImp();
     m.fire();
-    // inline implementation.
+    // inline implementation. this wrong for instance. better instance aother class that extends from it.
     Moshak moshak = new Moshak() {
       @Override
       protected void step1() {
@@ -43,27 +45,38 @@ public class Main {
     // aghim.i = 23; it is not correct because I is final in Aghim class.
     // aghim.a() is final and it can not override.
     aghim.a();
-    ///////////////////////////
+
+    ///////////////interface////////////
     PersianCat tommy = new PersianCat();
     tommy.a();
     tommy.b();
     tommy.c();
     tommy.cat();
     tommy.persian();
-    tommy.shared();
+    tommy.sameMethod();
     Persian reza = new Persian() {
       @Override
       public void a() {
         System.out.println("ana implementation of a");
       }
+
       @Override
       public void c() {
         System.out.println("ana implementation of b");
       }
     };
     //////////////////////////// functional programming
-    Cat.myFunc();
-    // Cat::myFunc;
+    FunctionalInterface.myFunc();
+    Runnable myFunc = FunctionalInterface::myFunc;
+    FunctionalInterface f = new FunctionalInterface() {
+      @Override
+      public void imp() {
+        FunctionalInterface.super.imp();
+      }
+    };
+    f.imp();
+
+
 
   }
 }

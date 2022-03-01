@@ -6,7 +6,7 @@ public interface Persian {
   public default void persian(){
       System.out.println("ana default method in persian interfce with body");
   }
-  public default void shared(){
+  public default void sameMethod(){
     System.out.println("ana same default method");
   }
 }
