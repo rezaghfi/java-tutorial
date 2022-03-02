@@ -8,3 +8,4 @@ public interface FunctionalInterface {
     System.out.println("ana method in interface and but static method cant access with object");
   }
 }
+
