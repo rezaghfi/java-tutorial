@@ -51,7 +51,7 @@ public class LambdaExpressionExample {
     };
     System.out.println(s3.see("reza"));
 
-    // multiple parameter
+    // multiple parameter without return keyword.
     Addable ad1 = (a, b) -> (a+b);
     System.out.println("10 + 3 = " + ad1.add(10,3));
 
