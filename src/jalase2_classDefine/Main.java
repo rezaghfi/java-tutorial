@@ -35,30 +35,16 @@ public class Main {
     new StaticBlock();
     StaticBlock.staticMethod();
 
-    //////////////////////////////// calculator //////////
-    Calculator cal = new Calculator();
-    cal.sum(12,12);
-    cal.sub(12,12);
-    cal.mul(12,12);
-    cal.div(12,12);
 
-    //////////////////// system.in.scanner
-    java.util.Scanner scanner = new java.util.Scanner(System.in);
-    String input1 = scanner.nextLine();
-    System.out.println("salam "+ input1);
+
+
     ///////////////////////// import
     Test test1 = new Test();
     jalase2_classDefine.america.Test test2 = new jalase2_classDefine.america.Test();
     jalase2_classDefine.iran.tehran.Test test3 = new jalase2_classDefine.iran.tehran.Test();
-    /////////////////////////////////////////// inheritance ///////////
-    Reza reza = new Reza();
-    reza.live();
-    reza.work();
-    reza.programming();
 
-    //////////////////////////////// Access /////////////////////////////
-    Access access = new Access();
-    access.protectedProperty = 10;
+
+
 
   }
 }

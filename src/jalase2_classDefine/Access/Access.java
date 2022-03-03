@@ -1,4 +1,4 @@
-package jalase2_classDefine;
+package jalase2_classDefine.Access;
 
 public class Access {
   // puublic
@@ -9,4 +9,8 @@ public class Access {
   protected int protectedProperty;
   // private
   private int privateProperty;
+
+  public void a(){
+    this.privateProperty = 12;
+  }
 }

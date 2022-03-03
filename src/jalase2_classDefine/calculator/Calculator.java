@@ -1,12 +1,12 @@
-package jalase2_classDefine;
+package jalase2_classDefine.calculator;
 
 public class Calculator {
   public Calculator() {
-    System.out.println("ana initialize");
+    System.out.println("calculator initialize in memory");
   }
 
   static {
-    System.out.println("ana loaded");
+    System.out.println("calculator loaded in metaspace");
   }
 
   public void sum(double x, double y) {
