@@ -1,6 +1,6 @@
 package jalase2_classDefine.iran;
 
-import jalase2_classDefine.Access;
+import jalase2_classDefine.Access.Access;
 
 public class Test extends Access {
   public Test() {

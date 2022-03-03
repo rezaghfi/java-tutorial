@@ -1,4 +1,4 @@
-package jalase2_classDefine;
+package jalase2_classDefine.extend;
 
 public class GholamHossein {
 
