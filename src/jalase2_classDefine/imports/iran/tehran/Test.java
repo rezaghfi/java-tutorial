@@ -1,4 +1,4 @@
-package jalase2_classDefine.iran.tehran;
+package jalase2_classDefine.imports.iran.tehran;
 
 public class Test {
   public Test(){

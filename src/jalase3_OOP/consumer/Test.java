@@ -7,8 +7,8 @@ import java.util.function.Consumer;
  */
 public class Test {
   public static void main(String[] args) throws Exception {
-    jimbo(JavaConsumer::test2);
-    jimbo((x,y)-> System.out.println("jimbo with my consumer"));
+    jimbo(Runable::test2);
+    jimbo(Runable2::test);
   }
 
   //jimbo with consumer input

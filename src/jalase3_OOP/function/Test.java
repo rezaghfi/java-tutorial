@@ -5,6 +5,7 @@ public class Test {
         //////////////////////////// functional programming
         FunctionalInterface.myFunc();
         Runnable myFunc = FunctionalInterface::myFunc;
+        //  object orient programming
         FunctionalInterface f = new FunctionalInterface() {
             @Override
             public void imp() {
@@ -13,5 +14,4 @@ public class Test {
         };
         f.imp();
     }
-
 }
