@@ -10,13 +10,14 @@ public class Sample {
   }
 
   public void javaVariable() {
+    // data type in java
     char a = 'a', b = 'b';
     int c = 1;
     short d = 1;
     long e = 1232323232;
     float f = 1.34f;
     double g = 232343.34343;
-    byte h = 1;
+    byte h = 12;
     //Double i = new Double(123232.3434);
 
     System.out.println("a , b are character and they values are: " + a + ", " + b);
