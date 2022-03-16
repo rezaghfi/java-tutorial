@@ -1,4 +1,4 @@
-package jalase1_helloJava;
+package 1_basics;
 
 public class Sample {
   Sample() {
