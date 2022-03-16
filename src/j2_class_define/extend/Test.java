@@ -1,0 +1,11 @@
+package j2_class_define.extend;
+
+public class Test {
+  public static void main(String[] args) {
+    /////////////////////////////////////////// inheritance ///////////
+    Reza reza = new Reza();
+    reza.live();
+    reza.work();
+    reza.programming();
+  }
+}
