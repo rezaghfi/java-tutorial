@@ -1,6 +1,8 @@
 package j1_basics;
 
 public class Sample {
+
+  public int attribute1;
   Sample() {
     System.out.println("ana constructor with no parameter");
   }
@@ -9,6 +11,7 @@ public class Sample {
     System.out.println("ana constroctor with parameter. a =" + a);
   }
 
+  // this is method
   public void javaVariable() {
     // data type in java
     char a = 'a', b = 'b';
