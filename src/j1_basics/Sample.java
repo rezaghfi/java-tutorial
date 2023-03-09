@@ -3,7 +3,7 @@ package j1_basics;
 public class Sample {
 
   public int attribute1;
-  Sample() {
+  public Sample() {
     System.out.println("ana constructor with no parameter");
   }
 

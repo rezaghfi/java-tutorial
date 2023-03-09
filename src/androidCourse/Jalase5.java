@@ -106,6 +106,9 @@ class Child extends Person{
 interface Animal{
     void soundAnimal();
     void run();
+    default void sleep(){
+        System.out.println("it is default method");
+    }
 }
 
 class cat implements Animal{

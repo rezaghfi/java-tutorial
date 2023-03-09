@@ -15,5 +15,6 @@ public class Main {
         j2_class_define.imports.iran.tehran.Test test1 = new j2_class_define.imports.iran.tehran.Test();
         Test test = new Test();
         test.a();
+        Test a =new Test();
     }
 }
