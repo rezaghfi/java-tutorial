@@ -2,6 +2,11 @@ package j2_class_define.instance;
 
 public class Test {
     public static void main(String[] args) {
+        // Car instancd
+        Car benz = new Car("black", 1,2,"s6", "benz");
+        Car perid = new Car("white", 2,2,"111","siapa");
+        benz.start();
+        perid.start();
         // vazir instanse
         Vazir naft = new Vazir();
         Vazir omor = new Vazir();
